@@ -23,6 +23,8 @@ In more detail this means:
 3. If a request is made to your API for a city where the weather data was _not requested before_, OR previously requested _more than 4 hours in the past_, you should fetch the weather data from the third party OpenWeatherMap API and store the data in your PostgreSQL table or Django model. Once the data is stored in your database, you should return this data to the user.
 4. If a request is made to your API for a city where the weather data was previously _requested 4 hours or less in the past_, you should return the response directly from the PostgreSQL table or Django Model.
 
+If you wish you can also create documentation around the API using `drf-yasg`.
+
 Submit a README alongside your submission, with instructions on how to run the project and a brief overview of the technical decisions made. Please provide as much detail as possible in your answer - technical and otherwise.
 
 You have full freedom to design the API and the database so long as it satisfies these requirements.
