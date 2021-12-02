@@ -8,11 +8,9 @@ Please don't spend more than 3 hours on this task.
 
 ## Technical Specification
 
-For this task, you should use the Open Weather Map API. The documentation for the free plan for the specific API you should use is accessible at:
+For this task, you should use the Open Weather Map API. The documentation for the free plan for the specific API you should use is accessible at [Open Weather Map](https://openweathermap.org/current).
 
-- https://openweathermap.org/current
-
-This API lets you make a call for current weather data for one location, by providing a city name. It also has data for approximately 200,000 cities. You can sign up for a free account to receive an API key to use and test the API. However, you may have to wait a few hours for them to activate your account so that the keys work. Alternatively, you can sign in using the details provided for an account registered to jobs@behaviourlab.com.
+This API lets you make a requests for current weather data for one location, by providing a city name. It also has data for approximately 200,000 cities. You can sign up for a free account to receive an API key to use and test the API. However, you may have to wait a few hours for them to activate your account so that the keys work. If you are having difficulty creating your own account, reach out to us and we can provide you with sign in details for an account registered to jobs@behaviourlab.com.
 
 ## Requirements
 
