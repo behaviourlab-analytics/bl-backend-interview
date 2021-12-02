@@ -7,7 +7,7 @@ Please fork this repository, and complete each task in it's own subfolder.
 Submit the project to your hiring manager:
 
 - If the repo is public simply provide the URL.
-- If the repo is private, please invite slarsendisney & yp717 to the repository.
+- If the repo is private, please invite *yp717* to the repository.
 
 ## Task One - Quick Coding Exercise
 
