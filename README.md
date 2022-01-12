@@ -7,7 +7,7 @@ Please fork this repository, and complete each task in it's own subfolder.
 Once you've finished, submit the project to `jobs@behaviourlab.com`, `yannis@behaviourlab.com`, and `steven.painter@behaviourlab.com`:
 
 - If the repo is public, simply provide the URL.
-- If the repo is private, please invite _yp717_ and _smpeepers_ to the repository.
+- If the repo is private, please invite _yp717_, _louis-bl_, and _smpeepers_ to the repository.
 
 ## What are we testing
 
