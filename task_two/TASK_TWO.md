@@ -14,7 +14,7 @@ This API lets you make a requests for current weather data for one location, by 
 
 ## Requirements
 
-Short summary: Set up an API that queries the provided third party weather API and stores the data in a PostgreSQL table. There should be an endpoint to look up data from the table. If you’re looking for a city that’s not in the table, you have to get this information from the third party and return it. Otherwise, you have to return the data directly from the table.
+Short summary: Set up an API using Django that queries the provided third party weather API and stores the data in a PostgreSQL table. There should be an endpoint to look up data from the table. If you’re looking for a city that’s not in the table, you have to get this information from the third party and return it. Otherwise, you have to return the data directly from the table.
 
 In more detail this means:
 
