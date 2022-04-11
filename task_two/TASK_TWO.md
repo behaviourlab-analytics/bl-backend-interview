@@ -4,7 +4,7 @@ Your team is getting ready for the holiday season to travel abroad and need a ne
 
 This question is open ended so you may make any extensions you like, but please make sure that you first satisfy the initial brief and specification, and also make sure to clearly state any assumptions you make.
 
-Please don't spend more than 3 hours on this task.
+Please don't spend more than 2 hours on this task.
 
 ## Technical Specification
 
@@ -14,14 +14,14 @@ This API lets you make a requests for current weather data for one location, by 
 
 ## Requirements
 
-Short summary: Set up an API using Django that queries the provided third party weather API and stores the data in a PostgreSQL table. There should be an endpoint to look up data from the table. If you’re looking for a city that’s not in the table, you have to get this information from the third party and return it. Otherwise, you have to return the data directly from the table.
+Short summary: Set up an API using any python with any other technology of your choice (Lambda, django, flask, etc.) that queries the provided third party weather API and stores the data in a relational database table. There should be an endpoint to look up data from the table. If you’re looking for a city that’s not in the table, you have to get this information from the third party and return it. Otherwise, you have to return the data directly from the table.
 
 In more detail this means:
 
 1. The user must be able to enter the name of a city on your API and receive information about the temperature in degrees Celsius for that city.
 2. Each time a user makes a request to your API, it should check if that data is stored in your PostgreSQL table.
 3. If a request is made to your API for a city where the weather data was _not requested before_, OR previously requested _more than 4 hours in the past_, you should fetch the weather data from the third party OpenWeatherMap API and store the data in your PostgreSQL table. Once the data is stored in your database, you should return this data to the user.
-4. If a request is made to your API for a city where the weather data was previously _requested 4 hours or less in the past_, you should return the response directly from the PostgreSQL table.
+4. If a request is made to your API for a city where the weather data was previously _requested 2 hours or less in the past_, you should return the response directly from the PostgreSQL table.
 
 Submit a README alongside your submission, with instructions on how to run the project and a brief overview of the technical decisions made. Please provide as much detail as possible in your answer - technical and otherwise. You may use any Python ORM framework or libraries of your choice, but please make sure you properly set up a virtual environment in the project.
 
