@@ -43,5 +43,6 @@ Output: 0
 - Please don't spend more than 40-60 mins on this task.
 - You must use Python to answer this question.
 - We're most interested to see problem solving and your approach.
-- Keep it simple, keep it DRY, but don't over complicate or over engineer. Comment and test as appropriate.
+- We will also consider the computational complexity of your solution.
+- Keep it simple and don't over complicate or over engineer. Comment and test as appropriate.
 - Include any assumptions you have made.
