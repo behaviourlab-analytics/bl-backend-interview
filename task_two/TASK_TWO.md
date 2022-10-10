@@ -19,9 +19,9 @@ Short summary: Set up an API using any python with any other technology of your 
 In more detail this means:
 
 1. The user must be able to enter the name of a city on your API and receive information about the temperature in degrees Celsius for that city.
-2. Each time a user makes a request to your API, it should check if that data is stored in your PostgreSQL table.
-3. If a request is made to your API for a city where the weather data was _not requested before_, OR previously requested _more than 4 hours in the past_, you should fetch the weather data from the third party OpenWeatherMap API and store the data in your PostgreSQL table. Once the data is stored in your database, you should return this data to the user.
-4. If a request is made to your API for a city where the weather data was previously _requested 2 hours or less in the past_, you should return the response directly from the PostgreSQL table.
+2. Each time a user makes a request to your API, it should check if that data is stored in any form of SQL table (e.g. sqlite is probably simplest because its in the standard library but you can also choose to use something like PostgreSQL - whatever you're most comfortable with!)
+3. If a request is made to your API for a city where the weather data was _not requested before_, OR previously requested _more than 4 hours in the past_, you should fetch the weather data from the third party OpenWeatherMap API and store the data in your SQL table. Once the data is stored in your database, you should return this data to the user.
+4. If a request is made to your API for a city where the weather data was previously _requested 2 hours or less in the past_, you should return the response directly from the SQL table.
 
 Submit a README alongside your submission, with instructions on how to run the project and a brief overview of the technical decisions made. Please provide as much detail as possible in your answer - technical and otherwise. You may use any Python ORM framework or libraries of your choice, but please make sure you properly set up a virtual environment in the project.
 
